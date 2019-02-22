@@ -38,6 +38,7 @@ train_data = data_frame_test.drop(labels=[TARGET_MONTH], axis=1)
 train_data = train_data.values
 train_data = train_data.reshape((214200, 33, 1))
 
+# todo: add cos...
 labels = labels.values
 labels = labels.reshape(214200, 1)
 
